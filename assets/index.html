@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+	<!--Menú-->
 	<nav class="navbar navbar-default navbar_fundacion">
 		<div class="container-fluid">
 			<!-- Brand and toggle get grouped for better mobile display -->
@@ -40,6 +41,7 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 
+	<!--Banner -->
 	<header class="banner">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
@@ -97,26 +99,27 @@
 		</div>
 	</header><!-- /header -->
 
-	<section class="Noticias">
+	<!--Noticias destacadas -->
+	<section class="noticias">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-3  noticia__destacada col-xs-1">
+				<div class="col-md-3  noticia__destacada col-xs-12">
 					<a href="#">
-						<img src="" alt="Noticia">
+						<img src="images/noticia1.jpg" alt="Noticia">
 						<h3>Finalizó proceso de postulación a Becas</h3>
 						<p>El año 2018 se otorgaron un total de 28 becas de las cuales 15 corresponden alumnos antiguos y 13 son para alumnos que inician sus estudios superiores  este año 2018.</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-md-offset-1 noticia__destacada col-xs-1">
+				<div class="col-md-3 col-md-offset-1 noticia__destacada col-xs-12">
 					<a href="#">
-						<img src="" alt="Noticia">
+						<img src="images/noticia2.jpg" alt="Noticia">
 						<h3>Tallarinata de amor y sonrisas</h3>
 						<p>La velada estuvo animada por nuestro amigo y permanente colaborador Checho Hirane, además de contar con la extraordinaria presentación de Andrea Tessa y otros artistas invitados.</p>
 					</a>
 				</div>
-				<div class="col-md-3 col-md-offset-1 noticia__destacada col-xs-1">
+				<div class="col-md-3 col-md-offset-1 noticia__destacada col-xs-12">
 					<a href="#">
-						<img src="" alt="Noticia">
+						<img src="images/noticia3.jpg" alt="Noticia">
 						<h3>Realización del Taller de Ski</h3>
 						<p>Se realizó como todos los años en Portillo del 21 al 25 de agosto y contó con la participación de 7 jóvenes chilenos, 2 ecuatorianos y 1 de España. Todos amputados de una extremidad inferior, como secuela de su enfermedad. </p>
 					</a>
@@ -125,6 +128,53 @@
 			</div>
 		</div>		
 	</section>
+
+	<!-- Donacion boton -->
+	<section class="jumbotron donacion">
+		<div class="row">
+			<div class="col-md-6 donacion__info">
+				<h2>Apóyenos</h2>
+				<p>Con su ayuda beneficiará el bienestar y tratamiento de un pequeño, cobtamos con sistema <span>WebPay</span></p>
+			</div>
+			<div class="col-md-6 donacion__boton">
+				<a href="#">DONAR</a>
+			</div>		
+		</div>
+	</section>
+
+	<!-- Footer --> 
+	<footer>
+		<div class="row">
+			<div class="col-md-4 footer_contacto">
+				<h3>Contacto</h3>
+				<p>	Dirección: Tupungato 10070 Vitacura, Santiago de Chile</br>
+					Teléfonos: 22170821 - 22170811</br>
+					Cta. Cte:Banco BCI N° 85999997</br>	  	
+					RUT: 72.169.900-5</br>
+					Email:fundacion@ninoycancer.cl</p>
+			</div>
+
+			<div class="col-md-4 footer_formulario">
+				<h3>Escríbenos</h3>
+				<form class="navbar-form navbar-left" role="formulary">
+					<div class="form-group">
+						<input type="text" class="form-control" placeholder="Nombre">
+						<input type="email" class="form-control" placeholder="Email">
+						<div class="form-group">
+							<label for="comment">Mensaje</label>
+							<textarea class="form-control" rows="5" id="comment">Mensaje</textarea>
+						</div> 
+					</div>
+					<button type="submit" class="btn btn-default">Enviar</button>
+				</form>
+			</div>
+
+			<div class="col-md-4 footer_mapa">
+				<iframe class=".embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.509134447668!2d-70.5393396848024!3d-33.38387898079302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses-419!2scl!4v1525816154018" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			
+		</div>
+	</footer>
 
 
 
