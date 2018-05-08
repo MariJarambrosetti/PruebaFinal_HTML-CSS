@@ -1,0 +1,56 @@
+/*Gereales*/
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*Nav*/
+
+.navbar_fundacion {
+	position: fixed;
+	z-index: 100;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 0;
+	width: 100%;
+	background-color: yellowgreen;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: white;
+	padding: 2vw 3vw 2vw 2vw;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: #272794;
+
+}
+
+.navbar_derecha {
+	padding-right: 2vw;
+}
+
+.navbar_logo {
+	max-width: 80%;
+	padding-left: 6vw;
+}
+
+@media screen and (max-width: 7667px) {
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: white;
+	}
+
+	.navbar-default .navbar-toggle:focus {
+		background-color: rgba(0,1,0,0.3);
+	}
+
+	.navbar-default .navbar-toggle:hover{
+		background-color: rgba(0,1,0,0.3);
+	}
+
+	.navbar_logo {
+	max-width: 45%;
+	padding-left: 3vw;
+	}
+}
