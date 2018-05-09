@@ -111,5 +111,63 @@ h1, h2, h3, h4, h5 {
 		height: 60vw;
 	}
 
-
 }
+
+/*Noticias Destacadas*/
+
+.noticias {
+	margin-top: 10vw;
+	margin-bottom: 8vw;
+}
+
+.noticia__destacada a{
+	text-decoration: none;
+	color: #333333;
+}
+
+.noticia__destacada a:hover {
+	text-decoration: none;
+	color: yellowgreen;
+}
+
+.noticia__destacada__primera {
+	margin-left: 4.5%;
+}
+
+
+@media screen and (max-width: 767px){
+	
+	.noticia__destacada {
+	margin-bottom: 30px;
+	}
+
+	.noticia__destacada__primera {
+		margin-left: 0;
+	}
+}
+
+/*Donación*/
+
+.donacion {
+	background-color: #333399;
+}
+
+.donacion__info {
+	color: white;
+}
+
+.donacion__boton {
+	text-align: center;
+}
+
+.donacion__boton a {
+	text-decoration: none;
+	color: white;
+}
+
+.donacion__boton h4{
+	border-radius: 10vw;
+	background-color: yellowgreen;
+	padding: 3vw;
+}
+
