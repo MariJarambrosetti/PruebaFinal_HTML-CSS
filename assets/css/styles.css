@@ -150,6 +150,7 @@ h1, h2, h3, h4, h5 {
 
 .donacion {
 	background-color: #333399;
+	margin-bottom: 0;
 }
 
 .donacion__info {
@@ -171,3 +172,9 @@ h1, h2, h3, h4, h5 {
 	padding: 3vw;
 }
 
+/*Footer*/
+
+footer {
+	padding-top: 6vw;
+	background-color: #e9e3e3;
+}
