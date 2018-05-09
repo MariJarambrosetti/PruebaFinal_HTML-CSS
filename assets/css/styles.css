@@ -198,7 +198,58 @@ textarea, button {
 @media screen and (max-width: 767px){
 	.footer_formulario, .footer_contacto {
 		padding: 5vw 10vw;
-}
+	}
 }
 
+/*NOTICIAS SECCION*/
+
+.noticias__jumbotron {
+	background-color: #333399;
+	text-align: center;
+	padding-top: 10vw;
+	padding-bottom: 7vw;
+}
+
+
+.noticias__jumbotron h1 {
+	color: white;
+}
+
+.not_destacada {
+	margin-left: 4vw;
+	margin-bottom: 4vw;
+}
+
+.not_destacada a {
+	color: #333333;
+}
+
+.not_destacada a:hover {
+	text-decoration: none;
+	color: yellowgreen;
+}
+
+.not_destacada img {
+	margin-bottom: 3vw;
+}
+
+@media screen and (max-width: 767px){
+	.noticias__jumbotron {
+		margin-top: 6vw;
+	}
+}
+
+/*QUIENES SOMOS*/
+
+.quienes_somos {
+	margin-top: 5vw;
+}
+
+.quienes_somos_texto {
+	line-height: 1.8vw;
+}
+
+.quienes_somos_img {
+
+}
 
