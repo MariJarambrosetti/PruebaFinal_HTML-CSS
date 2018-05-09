@@ -184,4 +184,21 @@ h1, h2, h3, h4, h5 {
 footer {
 	padding-top: 6vw;
 	background-color: #e9e3e3;
+	padding-bottom: 5vw;
 }
+
+textarea, button {
+	margin-top: 5px;
+}
+
+.navbar-form {
+	padding: 0;
+}
+
+@media screen and (max-width: 767px){
+	.footer_formulario, .footer_contacto {
+		padding: 5vw 10vw;
+}
+}
+
+
