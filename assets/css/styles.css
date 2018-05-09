@@ -5,6 +5,14 @@ body {
 	padding: 0;
 }
 
+p {
+	font-family: 'Muli', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Ubuntu', sans-serif;
+}
+
 /*Nav*/
 
 .navbar_fundacion {
@@ -15,6 +23,7 @@ body {
 	margin-bottom: 0;
 	width: 100%;
 	background-color: yellowgreen;
+	top: 0;
 }
 
 .navbar-default .navbar-nav > li > a{
@@ -53,4 +62,54 @@ body {
 	max-width: 45%;
 	padding-left: 3vw;
 	}
+}
+
+/*Banner*/
+
+.banner {
+	margin-top: 5vw;
+}
+
+.item img {
+	filter: brightness(0.7);
+	background-size: cover;
+}
+
+.carousel-caption {
+	margin-bottom: 10vw;
+}
+.carousel-caption h1{
+	font-size: 70px;
+}
+
+.carousel-caption p{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 767px){
+	.banner {
+	margin-top: 15vw;
+	}
+
+	.carousel-caption h1{
+	font-size: 25px;
+	}
+
+	.carousel-caption p{
+		font-size: 1.5rem;
+	}
+
+	.carousel-caption {
+	margin-bottom: 0;
+	}
+
+	.carousel-inner {
+		height: 60vw;
+	}
+
+	.carousel-inner .item img {
+		height: 60vw;
+	}
+
+
 }
