@@ -172,6 +172,13 @@ h1, h2, h3, h4, h5 {
 	padding: 3vw;
 }
 
+
+.donacion__boton h4:hover{
+	border-radius: 10vw;
+	background-color: rgba(128, 223, 54, 1);
+	padding: 3vw;
+}
+
 /*Footer*/
 
 footer {
